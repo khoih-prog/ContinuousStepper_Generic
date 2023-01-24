@@ -251,7 +251,7 @@ Another way to install is to:
 
 ### Example [RP2040_PWM_StepperControl](examples/RP2040_PWM_StepperControl)
 
-https://github.com/khoih-prog/ContinuousStepper_Generic/blob/9d4196bb4dbe699f32f5b92159ffa0235d86397b/examples/RP2040_PWM_StepperControl/RP2040_PWM_StepperControl.ino#L16-L92
+https://github.com/khoih-prog/ContinuousStepper_Generic/blob/dd0c59c125f14188bb811c5509fd197e99b0ac0c/examples/RP2040_PWM_StepperControl/RP2040_PWM_StepperControl.ino#L16-L92
 
 
 ---
