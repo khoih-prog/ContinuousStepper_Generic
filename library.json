@@ -1,0 +1,117 @@
+{
+  "name": "ContinuousStepper_Generic",
+  "version": "1.0.0",
+  "keywords": "timing, device, control, timer, pwm, pwm-slice, hardware-based-pwm, high-frequency-pwm, hardware-pwm, mission-critical, accuracy, non-blocking, mbed, mbed-nano, mbed-rp2040, rpi-pico, rp2040, nano-rp2040-connect, duty-cycle, hardware",
+  "description": "This library enables you to use Hardware-based PWM channels on Generic boards to use PWM to control continuous Stepper Motor. The most important feature is they're purely hardware-based PWM channels, supporting very high PWM frequencies. Therefore, their executions are not blocked by bad-behaving functions or tasks. This important feature is absolutely necessary for mission-critical tasks. These hardware-based PWMs, still work even if other software functions are blocking. Moreover, they are much more precise (certainly depending on clock frequency accuracy) than other software-based PWM using ISR, millis() or micros(). That's necessary if you need to control devices requiring high precision",
+  "authors":
+  {
+    "name":  "Khoi Hoang",
+    "url":   "https://github.com/khoih-prog",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/khoih-prog/ContinuousStepper_Generic"
+  },
+  "homepage": "https://github.com/khoih-prog/ContinuousStepper_Generic",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies":
+  [
+    {
+      "owner": "khoih-prog",
+      "name": "RP2040_PWM",
+      "version": "^1.4.1",
+      "platforms": ["raspberrypi"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "AVR_PWM",
+      "version": "^1.0.1",
+      "platforms": ["avr"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "megaAVR_PWM",
+      "version": "^1.0.1",
+      "platforms": ["megaavr"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "ESP32_FastPWM",
+      "version": "^1.0.1",
+      "platforms": ["espressif32"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "SAMD_PWM",
+      "version": "^1.0.1",
+      "platforms": ["samd"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "SAMDUE_PWM",
+      "version": "^1.0.1",
+      "platforms": ["atmelsam"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "nRF52_PWM",
+      "version": "^1.0.1",
+      "platforms": ["nordicnrf52", "nrf52"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "Teensy_PWM",
+      "version": "^1.1.1",
+      "platforms": ["avr"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "ATtiny_PWM",
+      "version": "^1.0.1",
+      "platforms": ["megaavr"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "Dx_PWM",
+      "version": "^1.1.1",
+      "platforms": ["megaavr"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "Portenta_H7_PWM",
+      "version": "^2.0.3",
+      "platforms": ["mbed_portenta"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "MBED_RP2040_PWM",
+      "version": "^1.0.1",
+      "platforms": ["mbed", "mbed_nano", "mbed_rp2040"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "nRF52_MBED_PWM",
+      "version": "^1.0.3",
+      "platforms": ["mbed", "nrf52"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "STM32_PWM",
+      "version": "^1.0.1",
+      "platforms": ["ststm32"]
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": "examples/*/*/*.ino",
+  "headers": ["ContinuousStepper_Generic.h"]
+}
