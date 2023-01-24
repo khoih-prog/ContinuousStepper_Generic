@@ -126,7 +126,7 @@ This [**ContinuousStepper_Generic** library](https://github.com/khoih-prog/Conti
  5. **Teensy (4.1, 4.0, 3.6, 3.5, 3,2, 3.1, 3.0, LC) with SPI, SPI1, SPI2**
  6. **AVR Mega1280, 2560, ADK.**
  7. ESP32
- 8. ESP8266 **To be addded**
+ 8. ESP8266 **To be added**
  
  9. RP2040-based boards, such as **RASPBERRY_PI_PICO, ADAFRUIT_FEATHER_RP2040 and GENERIC_RP2040**, using [**Arduino-mbed RP2040** core](https://github.com/arduino/ArduinoCore-mbed) or [**Earle Philhower's arduino-pico** core](https://github.com/earlephilhower/arduino-pico) with **SPI, SPI1**
  
